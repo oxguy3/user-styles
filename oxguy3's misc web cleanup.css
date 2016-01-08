@@ -1,0 +1,35 @@
+/**
+ * Strike out links to awful websites, to avoid accidentally clicking them.
+ *
+ * websites blocked (and reasons why):
+ * -- Forbes, for awful ads (often with malware) and obnoxious "Welcome" page
+ * -- Washington Post, for awful misinformed journalism, particularly in the 
+ *    field of tech security
+ * -- Wall Street Journal, for paywalling all its articles
+ */
+
+a[href*="//forbes.com"], a[data-href*="//forbes.com"],
+a[href*="//www.forbes.com"], a[data-href*="//www.forbes.com"],
+a[href*="//washingtonpost.com"], a[data-href*="//washingtonpost.com"],
+a[href*="//www.washingtonpost.com"], a[data-href*="//www.washingtonpost.com"],
+a[href*="//wsj.com"], a[data-href*="//wsj.com"],
+a[href*="//www.wsj.com"], a[data-href*="//www.wsj.com"]
+{
+    text-decoration: line-through !important;
+}
+
+@-moz-document domain("data.acgov.org") {
+/* reduce unreadably thick font weights on Alameda County's open data portal */
+
+.browseSection .browseList .results .gridList .nameDesc .name {
+    font-weight: normal !important;
+}
+}
+
+@-moz-document domain("theguardian.com") {
+/* Reduce derpiness of The Guardian with adblocking turned on */
+
+#header {
+    margin-top: 0 ! important;
+}
+}
