@@ -6,7 +6,6 @@
  * -- Washington Post, for awful misinformed journalism, particularly in tech security
  * -- Wall Street Journal, because everything's paywalled
  */
-
 a[href*="//forbes.com"], a[data-href*="//forbes.com"],
 a[href*="//www.forbes.com"], a[data-href*="//www.forbes.com"],
 a[href*="//washingtonpost.com"], a[data-href*="//washingtonpost.com"],
@@ -18,18 +17,27 @@ a[href*="//www.wsj.com"], a[data-href*="//www.wsj.com"]
 }
 
 @-moz-document domain("data.acgov.org") {
-
 /* reduce unreadably thick font weights on Alameda County's open data portal */
-
 .browseSection .browseList .results .gridList .nameDesc .name {
     font-weight: normal !important;
 }
 }
 
+@-moz-document domain("pgbovine.net") {
+/* moves content on Philip Guo's personal website to center of monitor */
+body>*, div#menubar {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 924px;
+}
+
+#headerpic {
+    width: 800px;
+}
+}
+
 @-moz-document domain("theguardian.com") {
-
 /* Reduce derpiness of The Guardian with adblocking turned on */
-
 #header {
     margin-top: 0 ! important;
 }
