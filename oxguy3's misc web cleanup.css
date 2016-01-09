@@ -14,7 +14,7 @@ a[href*="//www.washingtonpost.com"], a[data-href*="//www.washingtonpost.com"], a
 a[href*="//wapo.st"], a[data-href*="//wapo.st"], a[data-full-url*="//wapo.st"],
 a[href*="//wsj.com"], a[data-href*="//wsj.com"], a[data-full-url*="//wsj.com"],
 a[href*="//www.wsj.com"], a[data-href*="//www.wsj.com"] a[data-full-url*="//www.wsj.com"],
-a[href*="//on.wsj.com"], a[data-href*="//on.wsj.com"] a[data-full-url*="//on.wsj.com"],
+a[href*="//on.wsj.com"], a[data-href*="//on.wsj.com"] a[data-full-url*="//on.wsj.com"]
 {
     text-decoration: line-through !important;
 }
