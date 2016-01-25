@@ -4,17 +4,17 @@
  * websites blocked (and reasons why):
  * -- Forbes, for awful ads (often with malware) and obnoxious "Welcome" page
  * -- Washington Post, for awful misinformed journalism, particularly in tech security
- * -- Wall Street Journal, because everything's paywalled
+ * -- Wall Street Journal, because everything's paywalled **commented bc apparently only some stuff is paywalled
  */
 a[href*="//forbes.com"], a[data-href*="//forbes.com"], a[data-full-url*="//forbes.com"],
 a[href*="//www.forbes.com"], a[data-href*="//www.forbes.com"], a[data-full-url*="//www.forbes.com"],
 a[href*="/onforb.es"], a[data-href*="//onforb.es"], a[data-full-url*="//onforb.es"],
 a[href*="//washingtonpost.com"], a[data-href*="//washingtonpost.com"], a[data-full-url*="//washingtonpost.com"],
 a[href*="//www.washingtonpost.com"], a[data-href*="//www.washingtonpost.com"], a[data-full-url*="//www.washingtonpost.com"],
-a[href*="//wapo.st"], a[data-href*="//wapo.st"], a[data-full-url*="//wapo.st"],
+a[href*="//wapo.st"], a[data-href*="//wapo.st"], a[data-full-url*="//wapo.st"]/*,
 a[href*="//wsj.com"], a[data-href*="//wsj.com"], a[data-full-url*="//wsj.com"],
 a[href*="//www.wsj.com"], a[data-href*="//www.wsj.com"] a[data-full-url*="//www.wsj.com"],
-a[href*="//on.wsj.com"], a[data-href*="//on.wsj.com"] a[data-full-url*="//on.wsj.com"]
+a[href*="//on.wsj.com"], a[data-href*="//on.wsj.com"] a[data-full-url*="//on.wsj.com"]*/
 {
     text-decoration: line-through !important;
 }
