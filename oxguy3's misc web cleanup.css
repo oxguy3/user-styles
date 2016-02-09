@@ -33,13 +33,6 @@ body>*, div#menubar {
 }
 }
 
-@-moz-document domain("theguardian.com") {
-/* Reduce derpiness of page header */
-#header {
-    margin-top: 0 ! important;
-}
-}
-
 @-moz-document domain("theyetee.com") {
 /* Make image cycler buttons look clickable with clicky-hand mouse cursor */
 .cycle-pager>span {
