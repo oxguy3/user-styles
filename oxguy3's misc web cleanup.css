@@ -1,13 +1,11 @@
 /**
  * Strike out links to certain websites to avoid accidentally visiting them.
- *
- * websites blocked (and reasons why):
- * -- Forbes, for awful ads (often with malware) and obnoxious "Welcome" page
- * -- Washington Post, for awful misinformed journalism, particularly in tech security **commented bc outside of tech security, they're ok
  */
 a[href*="//forbes.com"], a[data-href*="//forbes.com"], a[data-full-url*="//forbes.com"],
 a[href*="//www.forbes.com"], a[data-href*="//www.forbes.com"], a[data-full-url*="//www.forbes.com"],
-a[href*="/onforb.es"], a[data-href*="//onforb.es"], a[data-full-url*="//onforb.es"]/*,
+a[href*="/onforb.es"], a[data-href*="//onforb.es"], a[data-full-url*="//onforb.es"],
+a[href*="//bizjournals.com"], a[data-href*="//bizjournals.com"], a[data-full-url*="//bizjournals.com"],
+a[href*="//www.bizjournals.com"], a[data-href*="//www.bizjournals.com"], a[data-full-url*="//www.bizjournals.com"]/*,
 a[href*="//washingtonpost.com"], a[data-href*="//washingtonpost.com"], a[data-full-url*="//washingtonpost.com"],
 a[href*="//www.washingtonpost.com"], a[data-href*="//www.washingtonpost.com"], a[data-full-url*="//www.washingtonpost.com"],
 a[href*="//wapo.st"], a[data-href*="//wapo.st"], a[data-full-url*="//wapo.st"]*/
@@ -46,5 +44,14 @@ body>*, div#menubar {
 /* Make image cycler buttons look clickable with clicky-hand mouse cursor */
 .cycle-pager>span {
     cursor: pointer;
+}
+}
+
+@-moz-document domain("troyhunt.com") {
+/* increase readability */
+.post-outer {
+    max-width: 650px;
+    margin: auto;
+    line-height: 1.6;
 }
 }
