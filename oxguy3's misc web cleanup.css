@@ -34,7 +34,7 @@ body>*, div#menubar {
 }
 
 @-moz-document domain("theguardian.com") {
-/* Reduce derpiness of The Guardian with adblocking turned on */
+/* Reduce derpiness of page header */
 #header {
     margin-top: 0 ! important;
 }
