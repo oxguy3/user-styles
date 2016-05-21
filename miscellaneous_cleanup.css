@@ -70,7 +70,8 @@ ul.feed-list .feed-item-title,
 ul.profile-list .feed-item-title,
 .media-list-sm > li .media-header,
 .megamenu .row ul.up-next-list > li .media-header,
-.media-list-sm-bg > li .media-header
+.media-list-sm-bg > li .media-header,
+.megamenu
 {
     text-transform: none ! important;
 }
