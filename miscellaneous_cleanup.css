@@ -38,15 +38,6 @@ a[href*="//www.wired.com"], a[data-href*="//www.wired.com"], a[data-full-url*="/
     }
 }
 
-@-moz-document domain("troyhunt.com") {
-/* increase readability */
-    .post-outer {
-        max-width: 700px;
-        margin: auto;
-        line-height: 1.6;
-    }
-}
-
 @-moz-document domain("feedly.com") {
 /* titlecase is trash */
     h1 {
@@ -65,5 +56,16 @@ a[href*="//www.wired.com"], a[data-href*="//www.wired.com"], a[data-full-url*="/
 /* these flairs are so obnoxious */
 .flair-square {
     display:none;
+}
+}
+
+@-moz-document domain("roosterteeth.com"), domain("fun.haus"), domain("achievementhunter.com"), domain("screwattack.com"), domain("theknow.tv") {
+/* Title Case Is The Literal Worst */
+.minimenu ul,
+ul.large-image-blocks li .post-stamp,
+ul.large-image-blocks li body#show-index #body-block ul.upcoming-shows .air-time,
+body#show-index #body-block ul.upcoming-shows ul.large-image-blocks li .air-time
+{
+    text-transform: none ! important;
 }
 }
