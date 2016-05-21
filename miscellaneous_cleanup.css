@@ -64,7 +64,13 @@ a[href*="//www.wired.com"], a[data-href*="//www.wired.com"], a[data-full-url*="/
 .minimenu ul,
 ul.large-image-blocks li .post-stamp,
 ul.large-image-blocks li body#show-index #body-block ul.upcoming-shows .air-time,
-body#show-index #body-block ul.upcoming-shows ul.large-image-blocks li .air-time
+body#show-index #body-block ul.upcoming-shows ul.large-image-blocks li .air-time,
+body#home #hero-block h1,
+ul.feed-list .feed-item-title,
+ul.profile-list .feed-item-title,
+.media-list-sm > li .media-header,
+.megamenu .row ul.up-next-list > li .media-header,
+.media-list-sm-bg > li .media-header
 {
     text-transform: none ! important;
 }
