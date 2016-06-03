@@ -76,3 +76,15 @@ ul.profile-list .feed-item-title,
     text-transform: none ! important;
 }
 }
+
+@-moz-document url-prefix("https://tools.wmflabs.org/flickr2commons/") {
+.newtitle
+{
+    width: 600px;
+}
+
+.manual_desc, .manual_cats, #desc_add, #info_add
+{
+    width: 400px;
+}
+}
