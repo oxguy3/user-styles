@@ -5,9 +5,13 @@ a[href*="//forbes.com"], a[data-href*="//forbes.com"], a[data-full-url*="//forbe
 a[href*="//www.forbes.com"], a[data-href*="//www.forbes.com"], a[data-full-url*="//www.forbes.com"],
 a[href*="/onforb.es"], a[data-href*="//onforb.es"], a[data-full-url*="//onforb.es"],
 a[href*="//bizjournals.com"], a[data-href*="//bizjournals.com"], a[data-full-url*="//bizjournals.com"],
-a[href*="//www.bizjournals.com"], a[data-href*="//www.bizjournals.com"], a[data-full-url*="//www.bizjournals.com"] ,
+a[href*="//www.bizjournals.com"], a[data-href*="//www.bizjournals.com"], a[data-full-url*="//www.bizjournals.com"],
 a[href*="//wired.com"], a[data-href*="//wired.com"], a[data-full-url*="//wired.com"],
-a[href*="//www.wired.com"], a[data-href*="//www.wired.com"], a[data-full-url*="//www.wired.com"] {
+a[href*="//www.wired.com"], a[data-href*="//www.wired.com"], a[data-full-url*="//www.wired.com"],
+a[href*="//bloomberg.com"], a[data-href*="//bloomberg.com"], a[data-full-url*="//bloomberg.com"],
+a[href*="//www.bloomberg.com"], a[data-href*="//www.bloomberg.com"], a[data-full-url*="//www.bloomberg.com"],
+a[href*="//bloom.bg"], a[data-href*="//bloom.bg"], a[data-full-url*="//bloom.bg"]
+{
     text-decoration: line-through !important;
 }
 
