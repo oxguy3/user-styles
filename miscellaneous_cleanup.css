@@ -78,7 +78,7 @@ ul.profile-list .feed-item-title,
 }
 
 @-moz-document url-prefix("https://tools.wmflabs.org/flickr2commons/") {
-/* embiggen absurdly small text input boxes*/
+/* embiggen absurdly small text input boxes */
 .newtitle
 {
     width: 600px;
