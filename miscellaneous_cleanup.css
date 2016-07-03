@@ -89,6 +89,13 @@ ul.profile-list .feed-item-title,
 }
 .manual_desc, .manual_cats, #desc_add, #info_add
 {
-    width: 400px;
+    width: 600px;
+}
+}
+
+@-moz-document url("https://gamesdonequick.com/schedule") {
+/* make game titles on GDQ schedule bold */
+#runTable tr:not(.second-row):not(.day-split) td:nth-child(2) {
+    font-weight:bold;
 }
 }
