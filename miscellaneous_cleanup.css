@@ -10,8 +10,7 @@ a[href*="//wired.com"],           a[data-href*="//wired.com"],           a[data-
 a[href*="//www.wired.com"],       a[data-href*="//www.wired.com"],       a[data-full-url*="//www.wired.com"],
 a[href*="//bloomberg.com"],       a[data-href*="//bloomberg.com"],       a[data-full-url*="//bloomberg.com"],
 a[href*="//www.bloomberg.com"],   a[data-href*="//www.bloomberg.com"],   a[data-full-url*="//www.bloomberg.com"],
-a[href*="//bloom.bg"],            a[data-href*="//bloom.bg"],            a[data-full-url*="//bloom.bg"]
-{
+a[href*="//bloom.bg"],            a[data-href*="//bloom.bg"],            a[data-full-url*="//bloom.bg"] {
     text-decoration: line-through !important;
 }
 
@@ -24,48 +23,48 @@ a[href*="//bloom.bg"],            a[data-href*="//bloom.bg"],            a[data-
 
 @-moz-document domain("pgbovine.net") {
 /* moves content on Philip Guo's personal website to center of monitor */
-body>*, div#menubar {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 924px;
-}
+    body>*, div#menubar {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 924px;
+    }
 
-#headerpic {
-    width: 800px;
-}
+    #headerpic {
+        width: 800px;
+    }
 }
 
 @-moz-document domain("theyetee.com") {
 /* Make image cycler buttons look clickable with clicky-hand mouse cursor */
-.cycle-pager>span {
-    cursor: pointer;
-}
+    .cycle-pager>span {
+        cursor: pointer;
+    }
 }
 
 @-moz-document domain("feedly.com") {
 /* titlecase is trash */
-h1 {
-    text-transform: none !important;
-}
+    h1 {
+        text-transform: none !important;
+    }
 }
 
 @-moz-document domain("flickr.com") {
 /* I will never sign up */
-.signup-footer {
-    display:none;
-}
+    .signup-footer {
+        display: none;
+    }
 }
 
 @-moz-document url-prefix("https://www.reddit.com/r/roosterteeth") {
 /* these flairs are so obnoxious */
-.flair-square {
-    display:none;
-}
+    .flair-square {
+        display: none;
+    }
 }
 
 @-moz-document domain("roosterteeth.com"), domain("fun.haus"), domain("achievementhunter.com"), domain("screwattack.com"), domain("theknow.tv") {
 /* Title Case Is The Literal Worst */
-.minimenu ul,
+    .minimenu ul,
 ul.large-image-blocks li .post-stamp,
 ul.large-image-blocks li body#show-index #body-block ul.upcoming-shows .air-time,
 body#show-index #body-block ul.upcoming-shows ul.large-image-blocks li .air-time,
@@ -75,27 +74,33 @@ ul.profile-list .feed-item-title,
 .media-list-sm > li .media-header,
 .megamenu .row ul.up-next-list > li .media-header,
 .media-list-sm-bg > li .media-header,
-.megamenu
-{
-    text-transform: none ! important;
-}
+.megamenu {
+        text-transform: none ! important;
+    }
 }
 
 @-moz-document url-prefix("https://tools.wmflabs.org/flickr2commons/") {
 /* embiggen absurdly small text input boxes */
-.newtitle
-{
-    width: 600px;
-}
-.manual_desc, .manual_cats, #desc_add, #info_add
-{
-    width: 600px;
-}
+    .newtitle {
+        width: 600px;
+    }
+
+    .manual_desc, .manual_cats, #desc_add, #info_add {
+        width: 600px;
+    }
 }
 
 @-moz-document url("https://gamesdonequick.com/schedule") {
 /* make game titles on GDQ schedule bold */
-#runTable tr:not(.second-row):not(.day-split) td:nth-child(2) {
-    font-weight:bold;
+    #runTable tr:not(.second-row):not(.day-split) td:nth-child(2) {
+        font-weight: bold;
+    }
+}
+
+@-moz-document url("https://www.dominos.com/en/pages/order/confirmation.jsp") {
+/* dark mode for dominos order tracker */
+body, .grid__cell--1, .card, .order-summary__item, .itemHeader {
+    background: #222 !important;
+    color: #eee !important;
 }
 }
