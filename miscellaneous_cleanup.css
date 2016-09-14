@@ -101,3 +101,11 @@ ul.profile-list .feed-item-title,
     font-weight:bold;
 }
 }
+
+@-moz-document domain("store.roosterteeth.com") {
+/* remove the painfully slow fade-ins */
+.fadeIn {
+    visibility: visible !important;
+    animation-name: none;
+}
+}
