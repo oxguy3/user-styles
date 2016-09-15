@@ -109,3 +109,10 @@ ul.profile-list .feed-item-title,
     animation-name: none;
 }
 }
+
+@-moz-document domain("tumblr.com") {
+/* i'm not gonna 'watch free on yahoo view', go away */
+.recommendation-reason-footer {
+    display: none;
+}
+}
