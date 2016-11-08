@@ -115,4 +115,8 @@ ul.profile-list .feed-item-title,
 .recommendation-reason-footer {
     display: none;
 }
+/* i'm gonna vote tomorrow stop judging me */
+.election-2016 .election-banner {
+    display: none;
+}
 }
