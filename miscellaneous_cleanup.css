@@ -116,7 +116,8 @@ ul.profile-list .feed-item-title,
     display: none;
 }
 /* i'm gonna vote tomorrow stop judging me */
-.election-2016 .election-banner {
+.election-2016 .election-banner,
+.election-day-rail {
     display: none;
 }
 }
