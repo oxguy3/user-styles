@@ -18,6 +18,9 @@ a[href*="//www.huffingtonpost.com"], a[data-href*="//www.huffingtonpost.com"], a
 a[href*="//huffpost.com"],           a[data-href*="//huffpost.com"],           a[data-full-url*="//huffpost.com"],
 a[href*="//www.huffpost.com"],       a[data-href*="//www.huffpost.com"],       a[data-full-url*="//www.huffpost.com"],
 a[href*="//huff.to"],                a[data-href*="//huff.to"],                a[data-full-url*="//huff.to"]
+a[href*="//cnet.com"],               a[data-href*="//cnet.com"],               a[data-full-url*="//cnet.com"],
+a[href*="//www.cnet.com"],           a[data-href*="//www.cnet.com"],           a[data-full-url*="//www.cnet.com"],
+a[href*="//cnet.co"],                a[data-href*="//cnet.co"],                a[data-full-url*="//cnet.co"]
 {
     text-decoration: line-through !important;
 }
@@ -120,9 +123,11 @@ ul.profile-list .feed-item-title,
 .recommendation-reason-footer {
     display: none;
 }
-/* i'm gonna vote tomorrow stop judging me */
-.election-2016 .election-banner,
-.election-day-rail {
-    display: none;
+}
+
+@-moz-document domain("myanimelist.net") {
+/* annoying membership banner */
+.banner-header-anime-straming {
+    display: none !important;
 }
 }
