@@ -23,7 +23,9 @@ a[href*="//www.cnet.com"],            a[data-href*="//www.cnet.com"],           
 a[href*="//cnet.co"],                 a[data-href*="//cnet.co"],                 a[data-full-url*="//cnet.co"],
 a[href*="//businessinsider.com"],     a[data-href*="//businessinsider.com"],     a[data-full-url*="//businessinsider.com"],
 a[href*="//www.businessinsider.com"], a[data-href*="//www.businessinsider.com"], a[data-full-url*="//www.businessinsider.com"],
-a[href*="//read.bi"],                 a[data-href*="//read.bi"],                 a[data-full-url*="//read.bi"] {
+a[href*="//read.bi"],                 a[data-href*="//read.bi"],                 a[data-full-url*="//read.bi"],
+a[href*="//dailymail.co.uk"],         a[data-href*="//dailymail.co.uk"],         a[data-full-url*="//dailymail.co.uk"],
+a[href*="//www.dailymail.co.uk"],     a[data-href*="//www.dailymail.co.uk"],     a[data-full-url*="//www.dailymail.co.uk"] {
     text-decoration: line-through !important;
 }
 
