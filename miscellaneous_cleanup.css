@@ -133,3 +133,12 @@ ul.profile-list .feed-item-title,
     display: none !important;
 }
 }
+
+@-moz-document domain("tweetdeck.twitter.com") {
+/* hide follows in Activity Feed by people who go crazy with follows */
+section.column-type-activity article.stream-item[data-key^="follow_14645160_"], /* Brian Brushwood */
+section.column-type-activity article.stream-item[data-key^="follow_1305940272_"] /* Slack */
+{
+    display: none;
+}
+}
