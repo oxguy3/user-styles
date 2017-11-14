@@ -105,7 +105,7 @@ ul.profile-list .feed-item-title,
     }
 }
 
-@-moz-document url("https://gamesdonequick.com/schedule") {
+@-moz-document url-prefix("https://gamesdonequick.com/schedule") {
 /* make game titles on GDQ schedule bold */
     #runTable tr:not(.second-row):not(.day-split) td:nth-child(2) {
         font-weight: bold;
@@ -140,5 +140,13 @@ section.column-type-activity article.stream-item[data-key^="follow_14645160_"], 
 section.column-type-activity article.stream-item[data-key^="follow_1305940272_"] /* Slack */
 {
     display: none;
+}
+}
+
+@-moz-document domain("danluu.com") {
+body {
+    max-width: 1000px;
+    margin: 20px auto;
+    font-size: 125%;
 }
 }
