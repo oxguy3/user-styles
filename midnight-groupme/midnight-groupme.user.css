@@ -1,6 +1,6 @@
 @-moz-document domain("app.groupme.com"), domain("web.groupme.com") {
 /*!
- * Midnight Groupme
+ * Midnight GroupMe
  * Copyright 2019 Hayden Schiff (oxguy3)
  * Licensed under MIT
  * Based on Bootswatch's Darkly theme
@@ -549,10 +549,10 @@ output {
 }
 
 .btn-default:active,
-.btn-default.active, 
+.btn-default.active,
 .open > .dropdown-toggle.btn-default,
 .btn-secondary:active,
-.btn-secondary.active, 
+.btn-secondary.active,
 .open > .dropdown-toggle.btn-secondary {
     color: #ffffff;
     background-color: #2c2c2c;
@@ -4924,4 +4924,15 @@ body.changing-phone-number .poundie-cloud {
 }*/
 
 /*** END GROUPME ***/
+
+img[src="/images/calendar-empty-state-no-texts.png"] {
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(https://oxguy3.github.io/user-styles/midnight-groupme/images/calendar-empty-state-no-texts.png) no-repeat;
+    background-size: 568px 486px;
+    width: 568px; /* Width of new image */
+    height: 486px; /* Height of new image */
+    padding-left: 568px; /* Equal to width of new image */
+}
 }
