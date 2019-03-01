@@ -1,0 +1,152 @@
+/**
+ * Strike out links to certain websites to avoid accidentally visiting them.
+ */
+a[href*="//forbes.com"],              a[data-href*="//forbes.com"],              a[data-full-url*="//forbes.com"],
+a[href*="//www.forbes.com"],          a[data-href*="//www.forbes.com"],          a[data-full-url*="//www.forbes.com"],
+a[href*="//onforb.es"],               a[data-href*="//onforb.es"],               a[data-full-url*="//onforb.es"],
+a[href*="//bizjournals.com"],         a[data-href*="//bizjournals.com"],         a[data-full-url*="//bizjournals.com"],
+a[href*="//www.bizjournals.com"],     a[data-href*="//www.bizjournals.com"],     a[data-full-url*="//www.bizjournals.com"],
+a[href*="//wired.com"],               a[data-href*="//wired.com"],               a[data-full-url*="//wired.com"],
+a[href*="//www.wired.com"],           a[data-href*="//www.wired.com"],           a[data-full-url*="//www.wired.com"],
+a[href*="//bloomberg.com"],           a[data-href*="//bloomberg.com"],           a[data-full-url*="//bloomberg.com"],
+a[href*="//www.bloomberg.com"],       a[data-href*="//www.bloomberg.com"],       a[data-full-url*="//www.bloomberg.com"],
+a[href*="//bloom.bg"],                a[data-href*="//bloom.bg"],                a[data-full-url*="//bloom.bg"],
+a[href*="//breitbart.com"],           a[data-href*="//breitbart.com"],           a[data-full-url*="//breitbart.com"],
+a[href*="//www.breitbart.com"],       a[data-href*="//www.breitbart.com"],       a[data-full-url*="//www.breitbart.com"],
+a[href*="//huffingtonpost.com"],      a[data-href*="//huffingtonpost.com"],      a[data-full-url*="//huffingtonpost.com"],
+a[href*="//www.huffingtonpost.com"],  a[data-href*="//www.huffingtonpost.com"],  a[data-full-url*="//www.huffingtonpost.com"],
+a[href*="//huffpost.com"],            a[data-href*="//huffpost.com"],            a[data-full-url*="//huffpost.com"],
+a[href*="//www.huffpost.com"],        a[data-href*="//www.huffpost.com"],        a[data-full-url*="//www.huffpost.com"],
+a[href*="//huff.to"],                 a[data-href*="//huff.to"],                 a[data-full-url*="//huff.to"],
+a[href*="//cnet.com"],                a[data-href*="//cnet.com"],                a[data-full-url*="//cnet.com"],
+a[href*="//www.cnet.com"],            a[data-href*="//www.cnet.com"],            a[data-full-url*="//www.cnet.com"],
+a[href*="//cnet.co"],                 a[data-href*="//cnet.co"],                 a[data-full-url*="//cnet.co"],
+a[href*="//businessinsider.com"],     a[data-href*="//businessinsider.com"],     a[data-full-url*="//businessinsider.com"],
+a[href*="//www.businessinsider.com"], a[data-href*="//www.businessinsider.com"], a[data-full-url*="//www.businessinsider.com"],
+a[href*="//read.bi"],                 a[data-href*="//read.bi"],                 a[data-full-url*="//read.bi"],
+a[href*="//dailymail.co.uk"],         a[data-href*="//dailymail.co.uk"],         a[data-full-url*="//dailymail.co.uk"],
+a[href*="//www.dailymail.co.uk"],     a[data-href*="//www.dailymail.co.uk"],     a[data-full-url*="//www.dailymail.co.uk"] {
+    text-decoration: line-through !important;
+}
+
+@-moz-document domain("data.acgov.org") {
+/* reduce unreadably thick font weights on Alameda County's open data portal */
+.browseSection .browseList .results .gridList .nameDesc .name {
+    font-weight: normal !important;
+}
+}
+
+@-moz-document domain("pgbovine.net") {
+/* moves content on Philip Guo's personal website to center of monitor */
+    body>*, div#menubar {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 924px;
+    }
+
+    #headerpic {
+        width: 800px;
+    }
+}
+
+@-moz-document domain("theyetee.com") {
+/* Make image cycler buttons look clickable with clicky-hand mouse cursor */
+    .cycle-pager>span {
+        cursor: pointer;
+    }
+}
+
+@-moz-document domain("feedly.com") {
+/* titlecase is trash */
+    h1 {
+        text-transform: none !important;
+    }
+}
+
+@-moz-document domain("flickr.com") {
+/* I will never sign up */
+    .signup-footer {
+        display: none;
+    }
+}
+
+@-moz-document url-prefix("https://www.reddit.com/r/roosterteeth") {
+/* these flairs are so obnoxious */
+    .flair-square {
+        display: none;
+    }
+}
+
+@-moz-document domain("roosterteeth.com"), domain("fun.haus"), domain("achievementhunter.com"), domain("screwattack.com"), domain("theknow.tv") {
+/* Title Case Is The Literal Worst */
+    .minimenu ul,
+ul.large-image-blocks li .post-stamp,
+ul.large-image-blocks li body#show-index #body-block ul.upcoming-shows .air-time,
+body#show-index #body-block ul.upcoming-shows ul.large-image-blocks li .air-time,
+body#home #hero-block h1,
+ul.feed-list .feed-item-title,
+ul.profile-list .feed-item-title,
+.media-list-sm > li .media-header,
+.megamenu .row ul.up-next-list > li .media-header,
+.media-list-sm-bg > li .media-header,
+.megamenu {
+        text-transform: none ! important;
+    }
+}
+
+@-moz-document url-prefix("https://tools.wmflabs.org/flickr2commons/") {
+/* embiggen absurdly small text input boxes */
+    .newtitle {
+        width: 600px;
+    }
+
+    .manual_desc, .manual_cats, #desc_add, #info_add {
+        width: 600px;
+    }
+}
+
+@-moz-document url-prefix("https://gamesdonequick.com/schedule") {
+/* make game titles on GDQ schedule bold */
+    #runTable tr:not(.second-row):not(.day-split) td:nth-child(2) {
+        font-weight: bold;
+    }
+}
+
+@-moz-document domain("store.roosterteeth.com") {
+/* remove the painfully slow fade-ins */
+    .fadeIn {
+        visibility: visible !important;
+        animation-name: none;
+    }
+}
+
+@-moz-document domain("tumblr.com") {
+/* i'm not gonna 'watch free on yahoo view', go away */
+.recommendation-reason-footer {
+    display: none;
+}
+}
+
+@-moz-document domain("myanimelist.net") {
+/* annoying membership banner */
+.banner-header-anime-straming {
+    display: none !important;
+}
+}
+
+@-moz-document domain("tweetdeck.twitter.com") {
+/* hide follows in Activity Feed by people who go crazy with follows */
+section.column-type-activity article.stream-item[data-key^="follow_14645160_"], /* Brian Brushwood */
+section.column-type-activity article.stream-item[data-key^="follow_1305940272_"] /* Slack */
+{
+    display: none;
+}
+}
+
+@-moz-document domain("danluu.com") {
+body {
+    max-width: 1000px;
+    margin: 20px auto;
+    font-size: 125%;
+}
+}
