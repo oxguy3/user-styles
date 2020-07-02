@@ -3088,7 +3088,7 @@ fieldset[disabled] .btn-microsoft.focus {
 }
 */
 .gm-loading-overlay {
-	/*background: url(/images/gm-hash-spinner-base.png) no-repeat center center;
+	/*background: url(https://oxguy3.github.io/user-styles/midnight-groupme/images/gm-hash-spinner-base.png) no-repeat center center;
     background-size: 32px auto;*/
 	background-color: rgba(35, 35, 35, 0.8);/*rgba(220, 220, 220, 0.6);*/
 }
@@ -3102,7 +3102,7 @@ fieldset[disabled] .btn-microsoft.focus {
 	background-size: 200px auto;
 }
 .upload-image.uploading .image-wrap {
-	background-image: url(/images/gm-hash-spinner-base.png);
+	background-image: url(https://oxguy3.github.io/user-styles/midnight-groupme/images/gm-hash-spinner-base.png);
 	background-size: auto;
 }
 .gm-tab-header:focus {
@@ -3145,7 +3145,7 @@ fieldset[disabled] .btn-microsoft.focus {
 	color: #666;
 }
 .loading-modal img.loading {
-	background-image: url(/images/gm-hash-spinner-base.png);
+	background-image: url(https://oxguy3.github.io/user-styles/midnight-groupme/images/gm-hash-spinner-base.png);
 }
 */
 .modal.new-group .search,
@@ -3210,7 +3210,7 @@ fieldset[disabled] .btn-microsoft.focus {
 }
 /*
 .popular .loading {
-	background: url(/images/gm-hash-spinner-base.png) no-repeat center center;
+	background: url(https://oxguy3.github.io/user-styles/midnight-groupme/images/gm-hash-spinner-base.png) no-repeat center center;
 	background-size: 24px auto;
 }
 .prompt-modal.alert-modal .support {
@@ -3294,7 +3294,7 @@ p.subtle {
 	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
 .delete-account .delete-account-screen.delete-account-loading {
-	background-image: url("/images/gm-hash-spinner-base.png");
+	background-image: url("https://oxguy3.github.io/user-styles/midnight-groupme/images/gm-hash-spinner-base.png");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: 32px auto;
@@ -3360,7 +3360,7 @@ p.subtle {
 	color: #626F82;
 }
 .view-document img.loading {
-	background-image: url(/images/gm-hash-spinner-base.png);
+	background-image: url(https://oxguy3.github.io/user-styles/midnight-groupme/images/gm-hash-spinner-base.png);
 }
 .view-poll .sender-data {
 	background-color: white;
@@ -3387,7 +3387,7 @@ p.subtle {
 	color: #626F82;
 }
 .view-poll img.loading {
-	background-image: url(/images/gm-hash-spinner-base.png);
+	background-image: url(https://oxguy3.github.io/user-styles/midnight-groupme/images/gm-hash-spinner-base.png);
 }
 .view-poll .results .optionRow {
 	background-color: #ffffff;
@@ -3626,7 +3626,7 @@ a:focus,
 	color: #0773a6;
 }
 .image-content .layout.loading-image {
-	background: transparent url(/images/gm-hash-spinner-base.png) no-repeat center center;
+	background: transparent url(https://oxguy3.github.io/user-styles/midnight-groupme/images/gm-hash-spinner-base.png) no-repeat center center;
 	background-size: 32px auto;
 }*/
 .image-content .image-controls .btn:hover {
@@ -3669,11 +3669,12 @@ a:focus,
 .message-composer .composer-layout .popover .arrow:after {
 	border-top-color: #0072A0;
 }
-/*
+*/
 #typing {
-	color: #aaa;
-	background-color: rgba(255, 255, 255, 0.9);
+	color: #fff; /*#aaa;*/
+	background-color: #181818; /*rgba(255, 255, 255, 0.9);*/
 }
+/*
 .textcomplete-item .mention .name {
 	color: #ccc;
 }
@@ -3721,7 +3722,7 @@ a:focus,
 	background-color: #2b2b30;
 }
 .file-upload .progress-screen .loading {
-	background-image: url(/images/gm-hash-spinner-base.png);
+	background-image: url(https://oxguy3.github.io/user-styles/midnight-groupme/images/gm-hash-spinner-base.png);
 }
 .file-upload .progress-screen p {
 	color: white;
@@ -3744,10 +3745,10 @@ a:focus,
 .chat-messages .likes-container .count {
 	color: #ccc;
 }
+/*
 .chat-messages .likes-container .ghost {
 	background: transparent url(/images/like_lazer_container.png) no-repeat;
 }
-/*
 .pages.has-server-pages .server-pages .page:first-child .message:first-child .likes-container .pop-over:after,
 .pages:not(.has-server-pages) .push-pages .message:first-child .likes-container .pop-over:after {
 	border-bottom-color: transparent;
@@ -3786,7 +3787,7 @@ a:focus,
 	background: transparent;
 }
 .media-search-modal img.loading {
-	background-image: url(/images/gm-hash-spinner-base.png);
+	background-image: url(https://oxguy3.github.io/user-styles/midnight-groupme/images/gm-hash-spinner-base.png);
 }
 .meme-overlay .sheet {
 	background-color: #FFF;
@@ -3831,20 +3832,21 @@ a:focus,
 	background-color: #2b2b30;
 }
 .image-upload .loading {
-	background-image: url(/images/gm-hash-spinner-base.png);
+	background-image: url(https://oxguy3.github.io/user-styles/midnight-groupme/images/gm-hash-spinner-base.png);
 	background-repeat: no-repeat;
 }
 .image-upload .loading .uploading-alert {
 	color: white;
 }
+*/
 .image-upload .modal-shadow {
-	background-color: #fff;
+	background-color: #303030;
 	border-color: #999999;
 	border-color: rgba(0, 0, 0, 0.6);
 	-webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.8);
 	box-shadow: 0 3px 9px rgba(0, 0, 0, 0.8);
 }
-*/
+
 .chat-messages .message.highlight {
 	background-color: #202020; /*#efefef;*/
 }
@@ -3900,7 +3902,7 @@ a:focus,
 	background-color: rgba(255, 255, 255, 0.6);
 }
 .calendar-event.event-attachment .event-screen.event-loading {
-	background-image: url("/images/gm-hash-spinner-base.png");
+	background-image: url("https://oxguy3.github.io/user-styles/midnight-groupme/images/gm-hash-spinner-base.png");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: 32px auto;
@@ -3978,7 +3980,7 @@ a:focus,
 	background-color: #fff;
 }
 .calendar-create .photo-upload .loader {
-	background: transparent url(/images/gm-hash-spinner-base.png) no-repeat center;
+	background: transparent url(https://oxguy3.github.io/user-styles/midnight-groupme/images/gm-hash-spinner-base.png) no-repeat center;
 	background-size: 24px auto;
 }
 .calendar-create .photo-preview .close {
@@ -3999,7 +4001,7 @@ a:focus,
 	color: #00aff0;
 }
 .calendar-create .location .location-query .query-options .foursquare .message.near-by-missing .loader {
-	background: transparent url(/images/gm-hash-spinner-base.png) no-repeat center;
+	background: transparent url(https://oxguy3.github.io/user-styles/midnight-groupme/images/gm-hash-spinner-base.png) no-repeat center;
 	background-size: 24px auto;
 }
 .calendar-create .location .location-query .query-options .foursquare .foursquare-location .addr {
@@ -4021,7 +4023,7 @@ a:focus,
 }
 .calendar-create .location .location-selected-name .loader,
 .calendar-create .location .location-address .loader {
-	background: transparent url(/images/gm-hash-spinner-base.png) no-repeat center;
+	background: transparent url(https://oxguy3.github.io/user-styles/midnight-groupme/images/gm-hash-spinner-base.png) no-repeat center;
 	background-size: 16px auto;
 }*/
 .calendar-create .form-footer {
@@ -4061,7 +4063,7 @@ a:focus,
 	background-color: rgba(255, 255, 255, 0.6);
 }
 .poll.poll-attachment .poll-screen.poll-loading {
-	background-image: url("/images/gm-hash-spinner-base.png");
+	background-image: url("https://oxguy3.github.io/user-styles/midnight-groupme/images/gm-hash-spinner-base.png");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: 33px auto;
@@ -4275,14 +4277,15 @@ a:focus,
 .poll-modal .modal-body {
 	background-color: #202020; /*#f8f8f8;*/
 }
+/*
 .ct-barlabel_y,
 .ct-barlabel {
-	fill: #fff; /*#2d2d2d;*/
+	fill: #2d2d2d;
 }
 .ct-barlabel-bold_y,
 .ct-barlabel-bold {
-	fill: #fff; /*#2d2d2d;*/
-}
+	fill: #2d2d2d;
+}*/
 .radio_outer {
 	fill: white;
 	stroke: #aab2bb;
@@ -4377,7 +4380,7 @@ a:focus,
 }
 /*
 .chat-messages .chat-loading {
-	background: url(/images/gm-hash-spinner-base.png) no-repeat center center;
+	background: url(https://oxguy3.github.io/user-styles/midnight-groupme/images/gm-hash-spinner-base.png) no-repeat center center;
 	background-size: 24px auto;
 }
 #chats .onboard .empty_group {
@@ -4470,7 +4473,7 @@ a:focus,
 }
 */
 .message-inline-downloader.loading {
-	background: #222222 url(/images/gm-hash-spinner-base.png) no-repeat center center;
+	background: #222222 url(https://oxguy3.github.io/user-styles/midnight-groupme/images/gm-hash-spinner-base.png) no-repeat center center;
 	background-size: 32px auto;
 	border-color: #464645 /*#e6e6e6;*/
 }
@@ -4786,7 +4789,7 @@ body.changing-phone-number .profile .fields input[type=password] {
 body.signup .profile .fields .add-avatar,
 body.signin .profile .fields .add-avatar,
 body.changing-phone-number .profile .fields .add-avatar {
-	background: #fff url(/images/gm-hash-spinner-base.png) no-repeat center;
+	background: #fff url(https://oxguy3.github.io/user-styles/midnight-groupme/images/gm-hash-spinner-base.png) no-repeat center;
 }
 body.signup .profile .fields .add-avatar.has-img,
 body.signin .profile .fields .add-avatar.has-img,
