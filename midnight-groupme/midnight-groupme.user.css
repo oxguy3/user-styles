@@ -4938,4 +4938,12 @@ img[src="/images/calendar-empty-state-no-texts.png"] {
     height: 486px; /* Height of new image */
     padding-left: 568px; /* Equal to width of new image */
 }
+
+.message {
+  background-color: inherit !important;
+  color: inherit !important;
+}
+.chat-name {
+  color:inherit !important;
+}
 }
