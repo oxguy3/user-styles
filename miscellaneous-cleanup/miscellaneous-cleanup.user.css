@@ -150,3 +150,17 @@ body {
     font-size: 125%;
 }
 }
+
+@-moz-document url-prefix("https://www.espn.com/watch/player/") {
+/* remove black space on bottom/sides of ESPN livestream player */
+.enabled-drm video {
+    padding-bottom: 0;
+}
+}
+
+@-moz-document regexp("https://.*\\.ext-twitch.tv/.*/overlay.html\\?.*") {
+/* hide Amazon Prime "Free Loot" button on top of Twitch streams */
+.prime-extension-root {
+    display: none;
+}
+}
